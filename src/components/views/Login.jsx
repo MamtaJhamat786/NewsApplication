@@ -58,6 +58,7 @@ const Login = () => {
             type="password"
             className="form-control"
             id="apiKey"
+            minLength="32"
             required
             onChange={apiKeyHandler} 
           />
