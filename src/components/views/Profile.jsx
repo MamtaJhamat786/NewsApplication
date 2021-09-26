@@ -1,5 +1,6 @@
 const Profile = () => {
-    return ( <div>Profile Page</div> );
+    return ( 
+    <div className="mt-5">Profile Page</div> );
 }
  
 export default Profile;

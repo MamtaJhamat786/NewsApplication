@@ -23,16 +23,12 @@ const Navbar = () => {
       </Link>
  
       <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-        <NavLink className="nav-link" aria-current="page" to="/home">
+        <NavLink className="nav-link" aria-current="page" to="/news-articles">
           Home
         </NavLink>
 
         <NavLink className="nav-link" to="/profile">
           Profile
-        </NavLink>
-
-        <NavLink className="nav-link" to="/story">
-          Story
         </NavLink>
         <div>
         <button type="button" className="btn btn-primary ml-5" onClick={logoutHandler}>Logout</button>

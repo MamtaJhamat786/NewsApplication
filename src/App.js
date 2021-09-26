@@ -4,7 +4,6 @@ import React from "react";
 import Home from "./components/views/Home";
 import Login from "./components/views/Login";
 import Profile from "./components/views/Profile";
-import Story from "./components/views/Story";
 import Navbar from "./components/navbar/Navbar";
 import NotFound from "./components/views/NotFound";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -20,8 +19,7 @@ function App () {
         <main className="container">
         <Navbar/>
             <Route path="/login" component={Login}></Route>
-            <Route path="/home" component={Home}></Route>
-            <Route path="/story" component={Story} />
+            <Route path="/news-articles" component={Home}></Route>
             <Route path="/profile" component={Profile} />
             <Route path="/not-found" component={NotFound}></Route> 
         </main>

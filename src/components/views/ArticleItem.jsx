@@ -4,15 +4,14 @@ const ArticleItem = (props) => {
   return (
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">{article.title}</h5>
+      <h4><a href={article.url} className="card-title" style={{ textDecoration: 'none' }}>{article.title}</a></h4> 
         <p className="card-text">{article.description}</p>
         <a href={article.url}>{article.source.name}</a>
-        {/* <button className="btn btn-primary" onClick={storyHandler}>
-          Check full story
-        </button> */}
+
       </div>
     </div>
   );
 };
 
 export default ArticleItem;
+// style={{ textDecoration: 'none', color: "black" }}
