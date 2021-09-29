@@ -1,4 +1,4 @@
-import ArticleItem from "./ArticleItem";
+import ArticleItem from "../articleItem/ArticleItem";
 
 const NewsList = (props) => {
     return ( 

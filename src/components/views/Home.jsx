@@ -1,6 +1,6 @@
 import { NEWS_API_KEY } from "../../config";
 import React from "react";
-import NewsList from "./NewsList";
+import NewsList from "../listOfNews/NewsList";
 import { useEffect } from "react";
 import { useState } from "react";
 
@@ -8,6 +8,7 @@ const Home = () => {
   const [articles, setArticles] = useState([])
   // const [filteredArticles, setfilteredArticles] = useState([])
   const [apiError, setapiError] = useState("")
+  
   // const [searchTopic, setSearchTopic] = useState("")
 
 //   handleSearch = (event) => {

@@ -21,7 +21,6 @@ const Login = () => {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    fetch ('')
     dispatch(authActions.login())
 
 
