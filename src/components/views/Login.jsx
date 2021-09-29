@@ -45,7 +45,7 @@ const Login = () => {
             type="email"
             className="form-control"
             id="email"
-            required
+            
             onChange={emailChangeHandler}
             
           />
@@ -59,7 +59,7 @@ const Login = () => {
             className="form-control"
             id="apiKey"
             minLength="32"
-            required
+            
             onChange={apiKeyHandler} 
           />
         </div>
